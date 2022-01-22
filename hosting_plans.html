@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting Plans</title>
+    <link rel="stylesheet" href="CSS/hosting_site.css">
+</head>
+<body>
+<div class="title">
+    <h1>Hosting Plans</h1>
+</div>
+
+<div class="container">
+    <div class="basic">
+    <h2>Basic</h2>
+    <ul>
+        <li>Monthly: $3.99</li><br>
+        <li>Disk Space: 100GB</li><br>
+        <li>Data Transfer: 1000GB/Month</li><br>
+        <li>Site Pages: 10</li><br>
+        <li>Discount Mo: July, August</li><br>
+    </ul>
+    <a href="hosting_plans(basic).html">Buy</a>
+    </div>
+
+    <div class="professional">
+    <h2>Professional</h2>
+    <ul>
+        <li>Monthly: $5.99</li><br>
+        <li>Disk Space: 500Gb</li><br>
+        <li>Data Transfer: 5000GB/Month</li><br>
+        <li>Site Pages: 50</li><br>
+        <li>Discount Mo: July, August, December</li>
+    </ul>
+    <a href="hosting_plans(professional).html">Buy</a>
+    </div>
+
+    <div class="ultimate">
+    <h2>Ultimate</h2>
+    <ul>
+        <li>Monthly: $9.99</li><br>
+        <li>Disk Space: 2000GB</li><br>
+        <li>Data Transfer: 20000GB/Month</li><br>
+        <li>Site Pages: 500</li><br>
+        <li>Discount Mo: July, August</li><br>
+    </ul>
+    <a href="hosting_plans(ultimate).html">Buy</a>
+    </div>
+    <div class="form">
+        <div>
+            <input type="text" id="txtName" placeholder="Enter your name" />
+        </div>
+        <div>
+            <input type="text" id="txtAge" placeholder="Enter your age" />
+        </div>
+        <div>
+            <input type="text" id="txtEmail" placeholder="Enter your email address" />
+        </div>
+        <div>
+            <select id="selCountry">
+                <option selected value="">-- Choose the country --</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Japan">Japan</option>
+                <option value="USA">USA</option>
+            </select>
+        </div>
+        <div>
+            <textarea id="msg" name="msg" placeholder="Write some message ..." style="height:100px"></textarea>
+        </div>
+        <div>
+            <input type="button" id="bt" value="Save data to file" onclick="saveFile()" />
+        </div>
+
+    </div>
+ </div>
+ <script rel="text/javascript" src="Java/hosting_plans.js"></script>
+</body>
+</html>

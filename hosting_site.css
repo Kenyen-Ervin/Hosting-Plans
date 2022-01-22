@@ -1,0 +1,72 @@
+body{
+    background-repeat: no-repeat;
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(180, 196, 190) 51%);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.title{
+    font-size: 2em;
+    text-align: center;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.basic{
+    height: 40vw;
+    width: 25vw;
+    padding: 10px;
+    list-style-type: none;
+    background-image: linear-gradient(to bottom right,rgb(255, 195, 82),orange);
+    color: white;
+    font-size: 2em;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.professional{
+    height: 40vw;
+    width: 25vw;
+    padding: 10px;
+    list-style-type: none;
+    background-image: linear-gradient(to bottom right,rgb(83, 255, 83),green);
+    color: white;
+    font-size: 2em;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.ultimate{
+    height: 40vw;
+    width: 25vw;
+    padding: 10px;
+    list-style-type: none;
+    background-image: linear-gradient(to bottom right,rgb(121, 221, 255),blue);
+    color: white;
+    font-size: 2em;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+a{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    text-align: center;
+}
+
+.form{
+    display:none;
+    background-color: white;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
